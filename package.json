@@ -1,0 +1,24 @@
+{
+  "name": "customers",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "code": "^4.0.0",
+    "glue": "^4.1.0",
+    "lab": "^13.0.4",
+    "labbable": "^2.1.1"
+  },
+  "dependencies": {
+    "blipp": "^2.3.0",
+    "boom": "^4.3.1",
+    "hapi": "^16.1.1",
+    "hapi-mongodb": "^6.2.1",
+    "hapi-swagger": "^7.7.0",
+    "inert": "^4.2.0",
+    "joi": "^10.4.1",
+    "vision": "^4.1.1"
+  },
+  "scripts": {
+    "test": "lab -L -v -r tap -o stdout -r html -o test.html"
+  }
+}
